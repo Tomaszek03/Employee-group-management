@@ -10,24 +10,6 @@ import java.util.List;
 
 public class Data {
 
-    // INSERT INTO groups (group_name,group_capacity) VALUES ("Star Wars", 15), ("ZOO", 20), ("Pirates of the Caribbean", 10);
-
-//    INSERT INTO employees (name, surname, state, year_of_birth, salary, id_group) VALUES
-//        ("Luke", "Skywalker", "OBECNY", 1990, 15000, 1),
-//        ("Obi-Wan", "Kenobi", "OBECNY", 1980, 14000, 1),
-//        ("Darth", "Vader", "CHORY", 1985, 20000, 1),
-//        ("Padme", "Amidala", "NIEOBECNY", 2000, 14500, 1),
-//        ("Leia", "Organa", "OBECNY", 1990, 17500, 1),
-//        ("Han", "Solo", "DELEGACJA", 1989, 12000, 1),
-//        ("R2", "D2", "DELEGACJA", 2005, 10000, 1),
-//        ("C", "3PO", "DELEGACJA", 1997, 15000, 1),
-//        ("Kylo", "Ren", "CHORY", 2003, 34000, 1),
-//        ("Lando", "Calrissian", "NIEOBECNY", 1989, 18700, 1),
-//        ("Jack", "Sparrow", "DELEGACJA", 1750, 1000000, 3),
-//        ("Hector", "Barbossa", "OBECNY", 1744, 760000, 3),
-//        ("Elizabeth", "Swann", "NIEOBECNY", 1770, 250000, 3),
-//        ("Davy", "Jones", "CHORY", 1678, 140000, 3);
-
     GroupsDao groupsDao = new GroupsDao();
     EmployeeDao employeeDao = new EmployeeDao();
     RateDao rateDao = new RateDao();
